@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-recommender
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-recommender-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Recommender API client library
+
+Development: https://github.com/googleapis/python-recommender
+
+Documentation: https://googleapis.dev/python/recommender/latest/index.html
 
 Google Cloud Recommender API is a Google Cloud service that provides recommendations for cloud customers for various categories like performance optimization, cost savings, reliability, feature discovery, etc. These recommendations are generated automatically based on analysis of user resources, configuration and monitoring metrics.
 See the [quick start guide](https://googleapis.dev/python/recommender/latest/index.html#quick-start).
