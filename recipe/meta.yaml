@@ -1,6 +1,6 @@
 {% set name = "google-cloud-recommender" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "c19868af824ca685309c169e8d0a67f6b8ba5fa05f50ef9d6fabdd2715beb9a5" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "7837d540e2b2914e609371477ee96246daf5c2480b8019102b30e33cee3b4931" %}
 
 package:
   name: {{ name|lower }}
@@ -34,13 +34,9 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Google Cloud Recommender API client library'
-  description: Google Cloud Recommender API is a Google Cloud service that provides recommendations for
-    cloud customers for various categories like performance optimization, cost savings, reliability, feature
-    discovery, etc. These recommendations are generated automatically based on analysis of user resources,
-    configuration and monitoring metrics.
-
-    See the [quick start guide](https://googleapis.dev/python/recommender/latest/index.html#quick-start).
+  summary: Google Cloud Recommender API client library
+  description: "Google Cloud Recommender API is a Google Cloud service that provides recommendations for cloud customers for various categories like performance optimization, cost savings, reliability, feature discovery, etc. These recommendations are generated automatically based on analysis of user resources, configuration\
+    \ and monitoring metrics.\nSee the [quick start guide](https://googleapis.dev/python/recommender/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/recommender/latest/index.html
   dev_url: https://github.com/googleapis/python-recommender
