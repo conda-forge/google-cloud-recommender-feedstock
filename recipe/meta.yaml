@@ -1,6 +1,6 @@
 {% set name = "google-cloud-recommender" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "18be3229f1529e3c70f43b027905135c78c3bbb8e000357620e0777565892e3b" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "38241b277e02a276dc7910729f09b62ee2678041ca37e6c1fa4d32046033ecac" %}
 
 package:
   name: {{ name|lower }}
@@ -17,11 +17,13 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
+    - proto-plus >=1.10.0
+    - packaging >=14.3
 
 test:
   imports:
