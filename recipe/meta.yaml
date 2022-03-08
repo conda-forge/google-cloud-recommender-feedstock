@@ -1,6 +1,6 @@
 {% set name = "google-cloud-recommender" %}
-{% set version = "2.7.1" %}
-{% set sha256 = "0733691aaa5e15cad6c87ac5f5d04e57ffc065e06881c6bdd5927a0b753d7433" %}
+{% set version = "2.7.2" %}
+{% set sha256 = "7f141d920cdd2f03ec941cd694f1d17ae9de4b0c6b94dbdf13cd2d48fd8a6870" %}
 
 package:
   name: {{ name|lower }}
