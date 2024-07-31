@@ -1,13 +1,13 @@
 {% set name = "google-cloud-recommender" %}
-{% set version = "2.15.4" %}
-{% set sha256 = "478b1216a9e9ab41350b45d2b7fda4ab58b9969e18f8702d8ea59e5663e60a94" %}
+{% set version = "2.15.5" %}
+{% set sha256 = "12d87b14ba58a20f5c1cf8b40bc6540ca968d059e50753d7c61f035a009ddcae" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
